@@ -32,3 +32,8 @@ $ npm run migrate:testnet
 After smart contract is on blockchain   
 $ npm run exec  
 
+
+
+# Reference information
+Talk about what happen in Migration of truffle
+https://blog.csdn.net/myNameIssls/article/details/79158646
