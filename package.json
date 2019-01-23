@@ -11,7 +11,8 @@
     "migrate:development": "dexon-truffle migrate --network=development --reset",
     "migrate:testnet": "dexon-truffle migrate --network=dexonTestnet --reset",
     "clean": "rm -rf ./node_modules && rm -rf ./dist && rm -rf ./build && rm -f ./package-lock.json",
-    "exec": "cd ./dist && http-server && cd -"
+    "exec": "cd ./dist && http-server && cd -",
+    "reboot":"npm run clean && npm install && npm run compile && npm run migrate:testnet && npm run build:webapp && npm run exec"
   },
   "author": "",
   "license": "ISC",
