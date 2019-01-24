@@ -159,6 +159,16 @@ const init = async () => {
       updateHTML(events);
     }
   }
+
+  const sendTransactionButton = document.getElementById('sendTransaction');
+  updateButton.onclick = async () => {
+    console.log("wait myAccount");
+    myAccount = (await httpHandler.eth.getAccounts())[0];
+    console.log("get myAccount and it is ");
+    console.log(myAccount);
+
+  }
+
 };
 
 init();
