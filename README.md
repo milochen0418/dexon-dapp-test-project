@@ -10,6 +10,11 @@ $ cp ./secret.js.sample ./secret.js
 $ vim ./secret.js
 and set variables in ./secret.js
 
+# Easy Usgae
+$ npm run reboot
+
+Then open browser to your address with 8080 port. then you can start to use it
+
 # clean built files
 $ npm run clean  
 
