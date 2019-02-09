@@ -1,19 +1,19 @@
 # dexon-dapp-test-project
-DEXON Test Project
-node version v.10.13.0
-my npm version is 6.4.1
+DEXON Test Project  
+node version v.10.13.0  
+my npm version is 6.4.1  
 
-
-
-When project is clone from git
-$ cp ./secret.js.sample ./secret.js 
-$ vim ./secret.js
-and set variables in ./secret.js
+When project is clone from git  
+$ cp ./secret.js.sample ./secret.js   
+$ vim ./secret.js  
+and set variables in ./secret.js  
 
 # Easy Usgae
-$ npm run reboot
+$ npm run reboot  
 
-Then open browser to your address with 8080 port. then you can start to use it
+And just open browser to your address with 8080 port. then you can start to use it  
+
+The following is just another detail...   
 
 # clean built files
 $ npm run clean  
@@ -28,20 +28,20 @@ $ npm run build:webapp
 # deploy smart contract
 ## deploy for internal testing
 ### run ganache rpc server as local simulated blockchain
-$ npm run rpc 
+$ npm run rpc  
 ### migrate to development environment
-$ npm run migrate:development
+$ npm run migrate:development  
 
 ## deploy for read blockchain in testnet
-$ npm run migrate:testnet
+$ npm run migrate:testnet  
 
 # execute web
-After smart contract is on blockchain   
-$ npm run exec  
-TO make sure youa have http-server  
-$ which http-server  
-If you don't have it, do it  
-$ sudo npm install -g http-server  
+After smart contract is on blockchain     
+$ npm run exec    
+TO make sure youa have http-server   
+$ which http-server    
+If you don't have it, do it    
+$ sudo npm install -g http-server   
 
 
 
