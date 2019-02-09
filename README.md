@@ -33,10 +33,10 @@ $ npm run migrate:testnet
 # execute web
 After smart contract is on blockchain   
 $ npm run exec  
-TO make sure youa have http-server
-$ which http-server
-If you don't have it, do it
-$ sudo npm install -g http-server
+TO make sure youa have http-server  
+$ which http-server  
+If you don't have it, do it  
+$ sudo npm install -g http-server  
 
 
 
