@@ -12,7 +12,8 @@
     "migrate:testnet": "./node_modules/.bin/dexon-truffle migrate --network=dexonTestnet --reset",
     "clean": "rm -rf ./node_modules && rm -rf ./dist && rm -rf ./build && rm -f ./package-lock.json",
     "exec": "cd ./dist && ../node_modules/.bin/http-server && cd -",
-    "reboot": "npm run clean && npm install && npm run compile && npm run migrate:testnet && npm run build:webapp && npm run exec"
+    "reboot": "npm run clean && npm install && npm run compile && npm run migrate:testnet && npm run build:webapp && npm run exec",
+    "help": "cat ./package.json | jq '.scripts'"
   },
   "author": "",
   "license": "ISC",
