@@ -21,11 +21,6 @@ const init = async () => {
    * https://github.com/ethereum/web3.js/pull/2000
    */
   const Web3 = await import('web3');
-	/*
-  const Tx = await import('ethereumjs-tx');
-	var privkey_str = 'BA091E76E79FA01FF648442CCDBB0764C431D8E7AA540C00F787AE8CCD0E06EB';
-	var key = new Buffer(privkey_str, 'hex')
-	*/
   let httpHandler;
   let wsHandler;
   let netId;
