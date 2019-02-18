@@ -18,10 +18,10 @@ open browser http://yourhost:8080
 
 ## run dApp for your personal testnet from zero
 ### Setup your myTestnet
-You can find the string dexon.pieapple.com in above two file
-./app/app.js  
-./truffle-config.js  
-Just replace dexon.pieapple.com into your host name
+You can find the string dexon.pieapple.com in above two file  
+./app/app.js    
+./truffle-config.js    
+Just replace dexon.pieapple.com into your host name  
 
 ### Build and run project in your myTestnet
 #### run rpc to simulate your myTestnet
@@ -36,7 +36,10 @@ open browser http://yourhost:8080
 
 
 # Thanks
-Thanks the helps and knowledge sharing from [@dexon-foundation](https://github.com/dexon-foundation), [@cyriacr](https://github.com/cyriacr) and [@CHAOWEICHIU](https://github.com/CHAOWEICHIU).
+Thanks the helps and knowledge sharing from  
+- [@dexon-foundation](https://github.com/dexon-foundation)  
+- [@cyriacr](https://github.com/cyriacr)   
+- [@CHAOWEICHIU](https://github.com/CHAOWEICHIU)   
 
 # Another details
 
