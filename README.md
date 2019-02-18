@@ -60,16 +60,16 @@ $ npm run rpc
 #### migrate to development environment
 $ npm run migrate:development  
 
-### deploy for read blockchain in testnet
+### deploy smart contract in testnet
 $ npm run migrate:testnet  
 
+### Or deploy smart contract in your testnet (your ganache rpc server)
+$ npm run migrate:mytestnet  
+
+
 ## execute web
-After smart contract is on blockchain     
+After smart contract is on testmet  
 $ npm run exec    
-TO make sure youa have http-server   
-$ which http-server    
-If you don't have it, do it    
-$ sudo npm install -g http-server   
 
 ## Clean all and run all steps  
 $ npm run reboot
