@@ -43,7 +43,8 @@ const init = async () => {
 
     switch(netId) {
       case 5777: // If DekuSan is using local rpc
-        return 'ws://localhost:8545';
+        //return 'ws://localhost:8545';
+        return 'ws://dexon.pieapple.com:8545';
       // If DekuSan is connect to testnet or not availble
       case 238:
       default:

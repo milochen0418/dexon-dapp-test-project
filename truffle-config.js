@@ -10,6 +10,7 @@ module.exports = {
     development: {
       provider: new HDWalletProvider(
         mnemonic,
+	
         "http://127.0.0.1:8545",
         0,
         1,
@@ -31,7 +32,7 @@ module.exports = {
       network_id: "*",
     },
 	 */
-    dexonTestnet: {
+	dexonTestnet: {
       provider: () => (
         new HDWalletProvider(
           mnemonic,
@@ -43,7 +44,24 @@ module.exports = {
         )
       ),
       network_id: "*",
-    },
+	},
+
+
+	myTestnet: {
+		provider: () => (
+			new HDWalletProvider(
+				mnemonic,
+				"http://dexon.pieapple.com:8545",
+				0,
+				1,
+				true,
+				"m/44'/237'/0'/0/"
+			)
+		),
+		network_id: "*",
+	},
+
+
 
   }
 };
